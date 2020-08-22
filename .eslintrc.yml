@@ -1,0 +1,23 @@
+env:
+  es2020: true
+  node: true
+  jest: true
+extends:
+  - airbnb-base
+  - prettier
+  - prettier/@typescript-eslint
+parser: '@typescript-eslint/parser'
+settings:
+  'import/resolver':
+    node:
+      paths: ['src']
+      extensions: [".js", ".ts"]
+parserOptions:
+  ecmaVersion: 2020
+  sourceType: module
+plugins:
+  - 'import'
+  - 'jest'
+rules:
+  no-console: off
+  import/extensions: off

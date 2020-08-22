@@ -1,0 +1,44 @@
+{
+  "name": "@alk/ts-sandbox",
+  "version": "1.0.0",
+  "description": "Typescript boilerplate package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --colors",
+    "test-watch": "jest --watch --colors",
+    "build": "tsc"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "diagnostics": false
+      }
+    },
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrKoliukh/ts-sandbox.git"
+  },
+  "keywords": [],
+  "author": "Alexandr Koliukh",
+  "license": "ISC",
+  "homepage": "https://github.com/AlexandrKoliukh/ts-sandbox#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.5",
+    "@types/node": "^14.0.23",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.18.0",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
