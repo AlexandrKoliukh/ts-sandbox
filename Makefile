@@ -4,7 +4,7 @@ install-deps:
 	npm ci
 
 run:
-	npx ts-node 'src/bin/hexlet.ts' 10
+	npx ts-node 'src/bin/bin.ts' 10
 
 build:
 	npm run build
